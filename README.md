@@ -42,4 +42,4 @@ The log-transformed model fits better and generalizes better, residual skew drop
 
 - Log-transforming a right-skewed target can meaningfully improve both fit and generalization for linear models.
 - Residual diagnostics (skew, mean, and pattern) matter as much as R² for judging whether a linear model is actually appropriate.
-- When predicting for custom inputs, all features must be supplied in the model's expected order — safest done by editing a DataFrame of averages rather than indexing into `coef_` by hand.
+- When predicting for custom inputs, all features must be supplied in the model's expected order, safest done by editing a DataFrame of averages rather than indexing into `coef_` by hand.
