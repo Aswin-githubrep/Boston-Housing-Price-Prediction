@@ -8,7 +8,7 @@ This project builds a regression model to estimate a home's value based on featu
 
 ## Dataset
 
-The classic Boston Housing dataset — 506 observations, 13 predictive features, with `PRICE` (median home value in $1000s) as the target. Features include `RM` (rooms per dwelling), `NOX` (pollution), `DIS` (distance to employment centers), `LSTAT` (% lower-status population), `PTRATIO` (pupil-teacher ratio), and `CHAS` (borders the Charles River).
+The classic Boston Housing dataset, 506 observations, 13 predictive features, with `PRICE` (median home value in $1000s) as the target. Features include `RM` (rooms per dwelling), `NOX` (pollution), `DIS` (distance to employment centers), `LSTAT` (% lower-status population), `PTRATIO` (pupil-teacher ratio), and `CHAS` (borders the Charles River).
 
 ## Tech Stack
 
@@ -34,7 +34,7 @@ The classic Boston Housing dataset — 506 observations, 13 predictive features,
 | Linear regression (raw price) | 0.750 | 0.671 |
 | Linear regression (log price) | 0.793 | 0.745 |
 
-The log-transformed model fits better and generalizes better — residual skew dropped from 1.46 to 0.09 after the transformation.
+The log-transformed model fits better and generalizes better, residual skew dropped from 1.46 to 0.09 after the transformation.
 
 **Example prediction:** for an 8-room home next to the river, in a low pupil-teacher-ratio area, with high pollution and low poverty in the surrounding area, the model estimates a price of **$25,792**.
 
